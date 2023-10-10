@@ -5,99 +5,88 @@
         <meta name="keywords" content="билеты, бронирование, путешествия">
         <meta name="description" content="Билеты Ультра - сервис для бронирования билетов по низким ценам">
         <!-- link rel="stylesheet" href="outline-prototype-safe.css" -->
+        <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="logo.svg">
         <title>Билеты Ультра</title>
     </head>
-    <body>
-        <header>
-            <h1>Билеты Ультра</h1>
-            <img src="logo.svg" width="180" height="160" alt="ship">
+    <body class="homepage">
+        <header class="homepage__header">
+            <img class="homepage__header__logo" src="logo.svg" width="180" height="160" alt="ship">
+            <h1 class="homepage__header__name">БилетыУльтра</h1>
         </header>
-        <main>
-            <nav>
-                <ul>
-                    <li><a href="">Главная</a></li>
-                    <li><a href="#">Забронировать билет</a></li>
-                    <li><a href="#">Вернуть билет</a></li>
-                    <li><a href="#">Личный кабинет</a></li>
-                    <li><a href="#">Задать вопрос</a></li>
-                    <li><a href="#">О компании</a></li>
+        <main class="homepage__main">
+            <nav class="homepage__main__navigation">
+                <ul class="homepage__main__navigation__list">
+                    <li class="homepage__main__navigation__list__item"><a class="homepage__main__navigation__list__item__element" href="">Главная</a></li>
+                    <li class="homepage__main__navigation__list__item"><a class="homepage__main__navigation__list__item__element" href="#">Забронировать билет</a></li>
+                    <li class="homepage__main__navigation__list__item"><a class="homepage__main__navigation__list__item__element" href="#">Вернуть билет</a></li>
+                    <li class="homepage__main__navigation__list__item"><a class="homepage__main__navigation__list__item__element" href="#">Личный кабинет</a></li>
+                    <li class="homepage__main__navigation__list__item"><a class="homepage__main__navigation__list__item__element" href="#">Задать вопрос</a></li>
+                    <li class="homepage__main__navigation__list__item"><a class="homepage__main__navigation__list__item__element" href="#">О компании</a></li>
                 </ul>
             </nav>
-            <article>
-                <section>
-                    <h2><u>Поможем быстро найти и забронировать билеты для вас!</u></h2>
-                    <p>
+            <article class="homepage__main__article">
+                <section class="homepage__main__article__information">
+                    <h2 class="homepage__main__article__information__title">Поможем быстро найти и забронировать билеты для вас!</h2>
+                    <p class="homepage__main__article__information__text">
                         Наша компания уже <strong>более 5 лет</strong> помогает бронировать билеты как на внутренние, так и на междугородние рейсы по самым низким ценам.
                         Мы предлагаем <strong>более 100 направлений</strong> в <strong>50 стран мира.</strong>
                         Подберем для вас интересные варианты, если вы еще не определилсь.
                         Уже <strong>почти 50000 человек</strong> воспользовались нашим сервисом!
                     </p>
                 </section>
-                <section>
-                    <h3>Популярные направления</h3>
-                    <figure>
-                        <a href="#">Стамбул</a>
-                        <img src="images/istanbul.jpg" width="400" height="266" alt="istanbul">
+                <section class="homepage__main__article__directions">
+                    <h3 class="homepage__main__article__directions__title">Популярные направления</h3>
+                    <figure class="homepage__main__article__figure">
+                        <figcaption class="homepage__main__article__figure__caption"><a class="homepage__main__article__figure__caption__text" href="#">Стамбул</a></figcaption>
+                        <img class="homepage__main__article__figure__image" src="images/istanbul.jpg" width="400" height="266" alt="istanbul">
                     </figure>
-                    <figure>
-                        <a href="#">Тбилиси</a>
-                        <img src="images/tbilisi.jpg" width="400" height="266" alt="tbilisi">
+                    <figure class="homepage__main__article__figure">
+                        <figcaption class="homepage__main__article__figure__caption"><a class="homepage__main__article__figure__caption__text" href="#">Тбилиси</a></figcaption>
+                        <img class="homepage__main__article__figure__image" src="images/tbilisi.jpg" width="400" height="266" alt="tbilisi">
                     </figure>
-                    <figure>
-                        <a href="#">Баку</a>
-                        <img src="images/baku.jpg" width="400" height="266" alt="baku">
+                    <figure class="homepage__main__article__figure">
+                        <figcaption class="homepage__main__article__figure__caption"><a class="homepage__main__article__figure__caption__text" href="#">Баку</a></figcaption>
+                        <img class="homepage__main__article__figure__image" src="images/baku.jpg" width="400" height="266" alt="baku">
                     </figure>
                 </section>
                 <section>
-                    <h3>А что посетить в России?</h3>
-                    <figure>
-                        <a href="#">Кисловодск</a>
-                        <img src="images/kislovodsk.jpg" width="400" height="266" alt="kislovodsk">
+                    <h3 class="homepage__main__article__directions__title">А что посетить в России?</h3>
+                    <figure class="homepage__main__article__figure">
+                        <figcaption class="homepage__main__article__figure__caption"><a class="homepage__main__article__figure__caption__text" href="#">Кисловодск</a></figcaption>
+                        <img class="homepage__main__article__figure__image" src="images/kislovodsk.jpg" width="400" height="266" alt="kislovodsk">
                     </figure>
-                    <figure>
-                        <a href="#">Калининград</a>
-                        <img src="images/kaliningrad.jpg" width="400" height="266" alt="kaliningrad">
+                    <figure class="homepage__main__article__figure">
+                        <figcaption class="homepage__main__article__figure__caption"><a class="homepage__main__article__figure__caption__text" href="#">Калининград</a></figcaption>
+                        <img class="homepage__main__article__figure__image" src="images/kaliningrad.jpg" width="400" height="266" alt="kaliningrad">
                     </figure>
                 </section>
             </article>
-            <aside>
-                <h4>Простые шаги для создания идеальной поездки:</h4>
+            <aside class="homepage__main__aside">
+                <h4 class="homepage__main__aside__title">Простые шаги для создания идеальной поездки:</h4>
                 <article>
-                    <ol>
-                        <li><em>Спланируйте маршрут своего путешествия</em></li>
-                        <li><em>Проверьте текущую ситуацию с визами<sub>в случае поездки заграницу</sub></em></li>
-                        <li><em>Забронируйте перелет</em></li>
-                        <li><em>Купите билеты на внутренний транспорт</em></li>
-                        <li><em>Забронируйте гостиницы по маршруту</em></li>
-                        <li><em>Скачайте все необходимые приложения на смартфон, обновите карты в gps</em></li>
-                        <li><em>Возьмите путеводитель с собой в дорогу</em></li>
-                        <li><em>Проверьте свой чек-лист необходимых в дорогу вещей</em></li>
+                    <ol class="homepage__main__aside__article__list">
+                        <li class="homepage__main__aside__article__list__item"><em>Спланируйте маршрут своего путешествия</em></li>
+                        <li class="homepage__main__aside__article__list__item"><em>Проверьте текущую ситуацию с визами в случае поездки заграницу</em></li>
+                        <li class="homepage__main__aside__article__list__item"><em>Забронируйте перелет</em></li>
+                        <li class="homepage__main__aside__article__list__item"><em>Купите билеты на внутренний транспорт</em></li>
+                        <li class="homepage__main__aside__article__list__item"><em>Забронируйте гостиницы по маршруту</em></li>
+                        <li class="homepage__main__aside__article__list__item"><em>Скачайте все необходимые приложения на смартфон, обновите карты в gps</em></li>
+                        <li class="homepage__main__aside__article__list__item"><em>Возьмите путеводитель с собой в дорогу</em></li>
+                        <li class="homepage__main__aside__article__list__item"><em>Проверьте свой чек-лист необходимых в дорогу вещей</em></li>
                     </ol>
                 </article>
-                <hr>
-                <blockquote>Ничто так не развивает ум, как путешествие</blockquote>
-                <hr>
-                <p><cite>Эмиль Золя</cite></p>
+                <blockquote class="homepage__main__aside__blockquote">
+                    <p>"Ничто так не развивает ум, как путешествие"</p>
+                    <cite class="homepage__main__aside__cite">Эмиль Золя</cite>
+                </blockquote>
             </aside>
-            <pre>
-                ⢀⢀⢀⣖⠲⡀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢸⠉⡇⢀⢀⢀⢀⢀⢀⢀
-                ⢀⢀⢀⠸⡆⠹⡀⣠⢤⡄⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⡏⢀⡧⢤⡄⢀⢀⢀⢀⢀
-                ⢀⢀⢀⢀⡧⢄⣹⣅⣜⡀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢸⠁⢀⢹⠚⠃⢀⢀⢀⢀⢀
-                ⢀⣀⠴⢒⣉⡹⣶⣤⣀⡉⠉⠒⠒⠒⠤⠤⣀⣀⣀⠇⢀⢀⢸⠠⣄⢀⢀⢀⢀⢀
-                ⢀⠈⠉⠁⢀⢀⢀⠉⠒⠯⣟⣲⠦⣤⣀⡀⢀⢀⠈⠉⠉⠉⠛⠒⠻⢥⣀⢀⢀⢀
-                ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠈⠙⣲⡬⠭⠿⢷⣦⣤⢄⣀⢀⢀⠚⠛⠛⠓⢦⡀
-                ⢀⢀⢀⢀⢀⢀⢀⢀⣀⠤⠴⠚⠉⠁⢀⢀⢀⢀⣀⣉⡽⣕⣯⡉⠉⠉⠑⢒⣒⡾
-                ⢀⢀⣀⡠⠴⠒⠉⠉⢀⢀⣀⣀⠤⡤⢶⣶⣋⠉⠉⢀⢀⢀⠈⠉⠉⠉⠉⠉⠁⢀
-                ⣖⣉⣁⣠⠤⠶⡶⡶⢍⡉⢀⢀⢀⠙⠒⠯⠜⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀
-                ⢀⠁⢀⢀⢀⢀⠑⢦⣯⠇⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀
-            </pre>
         </main>
-        <footer>
-            <section>
-                <h4><ins>Наши контакты:</ins></h4>
-                <p>Телефон: <a href="#">+7 (999) 999-99-99</a></p>
-                <p>Почта: <a href="#">bilety_ultra@gmail.com</a></p>
+        <footer class="homepage__footer">
+            <section class="homepage__contacts">
+                <h4 class="homepage__contacts__description">Наши контакты:</h4>
+                <p class="homepage__contacts__description">Телефон: <a class="homepage__contacts__description__element" href="tel:+7 (921) 058-39-82">+7 (921) 058-39-82</a></p>
+                <p class="homepage__contacts__description">Почта: <a class="homepage__contacts__description__element" href="mailto:bilety_ultra@gmail.com">bilety_ultra@gmail.com</a></p>
             </section>
         </footer>
     </body>
