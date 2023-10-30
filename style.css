@@ -306,7 +306,11 @@
 }
 
 .homepage__main__table__cell:nth-child(odd) {
-    background: rgba(26, 56, 71, 0.1);
+    background: rgba(26, 56, 71, 0.15);
+}
+
+.homepage__main__table__cell:nth-child(even) {
+    background: rgba(26, 56, 71, 0.05);
 }
 
 .homepage__main__table__cell {
@@ -358,6 +362,14 @@
     .homepage__main__article__figure {
         grid-column-start: 1;
         overflow: auto;
+    }
+
+    .homepage__main__article__figure__image {
+        transform: scale(1);
+    }
+
+    .homepage__main__article__figure__caption {
+        margin-bottom: 2rem;
     }
 
     .homepage__main__article__directions__rus {
