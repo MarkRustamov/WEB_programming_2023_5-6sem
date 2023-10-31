@@ -72,6 +72,10 @@
     text-decoration: underline;
 }
 
+.homepage__main__navigation__list__item_active {
+    text-decoration: underline;
+}
+
 .homepage__main__article {
 }
 
@@ -219,6 +223,17 @@
     font-weight: bold;
     color: var(--font-color);
     display: flex;
+}
+
+.homepage__load__info {
+    font-family: 'Roboto Slab', sans-serif;
+    text-transform: lowercase;
+    font-weight: bold;
+    text-align: center;
+    color: var(--font-color);
+    font-size: 0.9rem;
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
 }
 
 .homepage__contacts__description {
