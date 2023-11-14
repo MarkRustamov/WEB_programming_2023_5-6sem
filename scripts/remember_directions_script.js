@@ -26,7 +26,6 @@ function addDirection() {
         directionNameTemplate.querySelector('div > p').innerText = directionName.value;
         directionName.value = '';
         document.querySelector('article > section > div').appendChild(directionNameTemplate);
-        console.log(directionNameTemplate.querySelector('div').childElementCount);
         saveToLocalStorage()
     })
 }
