@@ -310,31 +310,45 @@
 
 table {
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.8rem;
     overflow-x: auto;
 }
 
 .homepage__main__table {
-    display: grid;
-    grid-template-rows: repeat(5, 1fr);
-    gap: 0.8rem;
+    display: contents;
 }
 
 .homepage__main__table__row {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0.8rem;
+    display: contents;
 }
 
-.homepage__main__table__row:nth-child(odd) {
+.homepage__main__table__cell:nth-child(odd) {
     background: rgba(26, 56, 71, 0.15);
 }
 
-.homepage__main__table__row:nth-child(even) {
+.homepage__main__table__cell:nth-child(even) {
     background: rgba(26, 56, 71, 0.05);
 }
 
 .homepage__main__table__cell {
     padding: 0.7rem;
+}
+
+.homepage__main__article__form {
+
+}
+
+.visit__button {
+
+}
+
+.delete__button {
+
+}
+
+.direction__item_visited {
+    text-decoration: line-through;
 }
 
 @media screen and (max-width: 1020px) {
@@ -401,9 +415,5 @@ table {
 
     .homepage__contacts {
         flex-direction: column;
-    }
-
-    .homepage__main__table__cell {
-        width: 120px;
     }
 }
