@@ -12,6 +12,7 @@
         <link rel="shortcut icon" href="logo.svg">
         <script src="scripts/page_load_time_script.js"></script>
         <script src="scripts/active_navigation_item_script.js"></script>
+        <script src="scripts/remember_directions_script.js"></script>
         <title>Задать вопрос</title>
     </head>
     <body class="homepage">
@@ -30,6 +31,16 @@
                     <li class="homepage__main__navigation__list__item"><a class="homepage__main__navigation__list__item__element" href="about.html">О компании</a></li>
                 </ul>
             </nav>
+            <article class="homepage__main__article">
+                <section>
+                    <h2 class="homepage__main__article__directions__title">Здесь вы можете написать, куда вы хотели бы полететь...</h2>
+                    <form class="homepage__main__article__form" id="directions-form">
+                        <input type="text" id="direction-name" placeholder="Напишите, куда вы хотели бы полететь...">
+                    </form>
+                    <div id="directions-list">
+                    </div>
+                </section>
+            </article>
             <aside class="homepage__main__aside">
                 <h4 class="homepage__main__aside__title">Простые шаги для создания идеальной поездки</h4>
                 <article>
@@ -57,5 +68,16 @@
                 <p class="homepage__contacts__description">Почта: <a class="homepage__contacts__description__element" href="mailto:bilety_ultra@gmail.com">bilety_ultra@gmail.com</a></p>
             </section>
         </footer>
+        <template id="direction-name-template">
+            <div>
+                <p></p>
+                <button class="visit__button">
+                    <img src="images/tick.svg" width="25" height="25" alt="tick">
+                </button>
+                <button class="delete__button">
+                    <img src="images/cross.svg" width="25" height="25" alt="cross">
+                </button>
+            </div>
+        </template>
     </body>
 </html>
