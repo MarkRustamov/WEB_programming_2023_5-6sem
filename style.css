@@ -308,16 +308,19 @@
     margin-block-start: 0.3rem;
 }
 
-.homepage__main__table {
+table {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0.8rem;
+    overflow-x: auto;
 }
 
-.homepage__main__table__column {
-    display: grid;
-    grid-template-rows: repeat(5, 1fr);
-    gap: 0.8rem;
+.homepage__main__table {
+    display: contents;
+}
+
+.homepage__main__table__row {
+    display: contents;
 }
 
 .homepage__main__table__cell:nth-child(odd) {
@@ -329,11 +332,23 @@
 }
 
 .homepage__main__table__cell {
-    padding: 0.5rem;
+    padding: 0.7rem;
 }
 
-.homepage__main__table__cell__description {
-    text-align: center;
+.homepage__main__article__form {
+
+}
+
+.visit__button {
+
+}
+
+.delete__button {
+
+}
+
+.direction__item_visited {
+    text-decoration: line-through;
 }
 
 @media screen and (max-width: 1020px) {
@@ -400,9 +415,5 @@
 
     .homepage__contacts {
         flex-direction: column;
-    }
-
-    .homepage__main__table {
-        overflow: auto;
     }
 }
