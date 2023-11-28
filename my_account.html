@@ -12,6 +12,7 @@
         <link rel="shortcut icon" href="logo.svg">
         <script src="scripts/page_load_time_script.js"></script>
         <script src="scripts/active_navigation_item_script.js"></script>
+        <script src="scripts/networking_script.js"></script>
         <title>Личный кабинет</title>
     </head>
     <body class="homepage">
@@ -30,6 +31,15 @@
                     <li class="homepage__main__navigation__list__item"><a class="homepage__main__navigation__list__item__element" href="about.html">О компании</a></li>
                 </ul>
             </nav>
+            <article class="homepage__main__article">
+                <h2 class="homepage__main__article__directions__title">Самые активные пользователи</h2>
+                <div class="preloader-container">
+                    <div class="preloader"></div>
+                </div>
+                <div class="error-message">
+                    <p>&#10071;Что то пошло не так&#10071;</p>
+                </div>
+            </article>
             <aside class="homepage__main__aside">
                 <h4 class="homepage__main__aside__title">Простые шаги для создания идеальной поездки</h4>
                 <article>
@@ -57,5 +67,16 @@
                 <p class="homepage__contacts__description">Почта: <a class="homepage__contacts__description__element" href="mailto:bilety_ultra@gmail.com">bilety_ultra@gmail.com</a></p>
             </section>
         </footer>
+        <template id="user-template">
+            <div class="user-card">
+                <img class="user-logo" src="images/user_icon.svg" width="180" height="180" alt="user">
+                <p class="user-info"></p>
+                <p class="user-info"></p>
+                <p class="user-info"></p>
+                <p class="user-info"></p>
+                <p class="user-info"></p>
+                <p class="user-info"></p>
+            </div>
+        </template>
     </body>
 </html>
