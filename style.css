@@ -412,6 +412,27 @@ table {
     margin: auto;
 }
 
+.homepage__main__images {
+    font-family: 'Roboto Slab', sans-serif;
+    color: var(--font-color);
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 1rem 2rem;
+}
+
+.homepage__main__images__header {
+    font-size: 2.5rem;
+    margin-block-start: 0.3rem;
+    margin-block-end: 0.5rem;
+    text-align: center;
+}
+
+.sldir__image {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media screen and (max-width: 1020px) {
     .homepage__header__logo {
         display: none;

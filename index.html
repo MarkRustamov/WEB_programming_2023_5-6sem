@@ -13,6 +13,10 @@
         <link rel="shortcut icon" href="logo.svg">
         <script src="scripts/page_load_time_script.js"></script>
         <script src="scripts/active_navigation_item_script.js"></script>
+        <script src="scripts/slidr.min.js"></script>
+        <script src="scripts/slidr_images_script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+        <link rel="stylesheet" href="barber-shop.css">
         <title>Билеты Ультра</title>
     </head>
     <body class="homepage">
@@ -115,7 +119,17 @@
                             </tr>
                         </tbody>
                     </table>
-                </section>              
+                </section>
+                <section class="homepage__main__images">
+                    <h3 class="homepage__main__images__header">Фотографии наших пользователей</h3>
+                    <div class="sldir__image" id="slidr-images">
+                        <img data-slidr="one" src="images/beach-sea.webp" width="700" height="430" alt="beach-sea"/>
+                        <img data-slidr="two" src="images/beach.jpg" width="700" height="430" alt="beach"/>
+                        <img data-slidr="three" src="images/friends-mountain.jpg" width="700" height="430" alt="friends-mountain"/>
+                        <img data-slidr="four" src="images/lake.jpeg" width="700" height="430" alt="lake"/>
+                        <img data-slidr="five" src="images/mountains.jpg" width="700" height="430" alt="mountains"/>
+                    </div>
+                </section>
             </article>
             <aside class="homepage__main__aside">
                 <h4 class="homepage__main__aside__title">Простые шаги для создания идеальной поездки</h4>
